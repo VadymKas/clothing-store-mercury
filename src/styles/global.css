@@ -6,7 +6,9 @@
 }
 
 body {
-  background: var(--bg);
+  height: 100vh;
+  background: linear-gradient(#212123, black);
+  background-repeat: no-repeat;
 }
 
 a {
