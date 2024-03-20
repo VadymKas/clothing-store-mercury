@@ -7,8 +7,10 @@
 
 body {
   height: 100vh;
+  color: var(--white);
   background: linear-gradient(#212123, black);
   background-repeat: no-repeat;
+  margin: 0 40px;
 }
 
 a {
