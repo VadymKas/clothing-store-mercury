@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+  margin-top: 20px;
+
+  &__logo {
+    color: var(--white);
+
+    h3 {
+      font-size: 32px;
+      line-height: 1;
+      text-align: center;
+    }
+  }
+
+  &__rights {
+    color: var(--dark-sea);
+    font-size: 14px;
+
+    a {
+      color: var(--red);
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 16px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: var(--dark-sea);
+
+      &:hover {
+        fill: var(--white);
+      }
+    }
+  }
+}
