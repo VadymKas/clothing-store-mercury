@@ -14,7 +14,14 @@
       margin-top: 20px;
 
       .link {
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: capitalize;
         color: var(--white);
+
+        &_active {
+          color: var(--red);
+        }
       }
     }
   }
@@ -24,23 +31,19 @@
     justify-content: space-between;
     margin-top: auto;
 
+    .link {
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: capitalize;
+      color: var(--dark-sea);
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+
     .link:last-of-type {
       text-decoration: underline;
-    }
-  }
-
-  .link {
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: capitalize;
-    color: var(--dark-sea);
-
-    &:hover {
-      color: var(--white);
-    }
-
-    &:active {
-      color: var(--red);
     }
   }
 }
